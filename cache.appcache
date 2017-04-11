@@ -1,0 +1,26 @@
+CACHE MANIFEST v1.0
+# Este es un manifiesto para mi pagina web
+#DATE 28/10/2016
+
+CACHE MANIFEST
+index.html
+ayuda.html
+juego.html
+contacto.html
+configuracion.html
+img/buscaminas.png
+img/luisherdeth.png
+
+# Usar desde la red si está disponible
+NETWORK:
+*
+
+# Si fallaran los archivos mencionados automáticamente
+#le damos un intento más para recuperar archivos que mostrar OFFLINE.
+FALLBACK:
+img/buscaminas.png
+img/luisherdeth.png
+
+# Se puede crear un manifiesto para cada uno de las páginas web
+# con contenido variable o podemos crear un manifiesto inicial
+# que contenga todos los archivos necesarios para un sitio web completo.

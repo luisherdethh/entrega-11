@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+header {
+	background: #212121;
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+ul {
+	list-style: none;
+	padding: 15px;
+}
+
+nav li {
+	display: inline-block;
+	padding: 10px
+}
+section ol{
+	margin-left: 10px;
+}
+section ol li{
+	list-style-type: square;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+ul li a:hover {
+	border-bottom: 5px solid #309ddf;
+}
+
+#logo {
+	 margin: 20px;
+	 float: left;
+	 width: 200px;
+	 height: 50px;
+	 background: url(http://buscaminas.eu/buscaminas.png) no-repeat center;
+	 -webkit-background-size: 60px 60px;
+	 background-size: 60px 60px;
+}
+
+nav {
+	 float: right;
+	 font-family: 'Open Sans', sans-serif;
+}
+
+#menu-icon {
+	 background: url(topbar.png) no-repeat center;
+	 display: hidden;
+	 width: 32px;
+	 height: 36px;
+}
+
+#container{
+	margin-top: 76px;
+}
+.pfondo{
+	display: inline-block;
+	background-color: #309ddf;
+	padding: 50px 0 50px 0;
+}
+
+.pfondo3{
+	display: inline-block;
+	background-color: #BBDEFB;
+	padding: 50px 0 50px 0;
+}
+
+.pfondo4{
+	display: inline-block;
+	background-color: #2196F3;
+	padding: 50px 0 50px 0;
+}
+
+.pfondo5{
+	display: inline-block;
+	padding: 50px 0 50px 0;
+}
+
+.mitexto{
+	text-align: left;
+	font-size: 1.3em;
+	padding: 20px;
+}
+
+.mitexto img{
+	text-align: center;
+	width: 243px;
+	height: 319px;
+	display: block;
+	margin: 0 auto;
+}
+
+iframe{
+	margin:20px auto;
+	display: block;
+}
+
+.pmapa{
+	padding: 0;
+}
+
+.preglas{
+	text-align: left;
+	font-size: 1.3em;
+}
+
+.mifoto{
+	text-align: center;
+}
+
+.mivideo{
+	text-align: center;
+	margin-top: -40px;
+}
+
+input{
+	width: 100%;
+	padding: 9px;
+		-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+textarea{
+	width: 100%;
+	height: 100px;
+		-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+#lopd{
+	width: 20%;
+}
+
+.boton{
+	padding: 10px;
+	width: 200px;
+	display: block;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.boton:hover{
+	color:white;
+	font-weight: bold;
+	background-color: #F44336;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 1.6em;
+	color: #212121;
+	font-family: 'Russo One', sans-serif;
+}
+
+.pjuego{
+	min-height: 500px;
+	background-color: #FFFFFF;
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 692px) {
+ nav{
+ 	padding: 20px;
+ }
+
+ header {
+	position: fixed;
+	 top:0;
+	 }
+ul{
+	padding: 0px;
+}
+ 
+ #menu-icon {
+ display:inline-block;
+ }
+
+ nav ul, nav:active ul { 
+ display: none;
+ position: absolute;
+ background: #212121;
+ right: 0px;
+ top: 65px;
+ width: 100%;
+ }
+
+ nav:hover ul {
+ display: block;
+ }
+nav li a{
+ font-size: 1.3em;
+	display: block;
+}
+nav li a:hover{
+	display: block;
+	background-color:#309ddf;
+	text-decoration: none;
+ 	padding: 15px 0;
+}
+
+ nav li {
+ text-align: center;
+ width: 100%;
+ margin: 0;
+ }
+}
+
+/*@MEDIAAAAAAAAAAAA*/
+
+@media screen and (min-width: 1024px) {
+  .col-1 {
+    width: 8.33333%;
+    float: left; }
+  .col-2 {
+    width: 16.66667%;
+    float: left; }
+  .col-3 {
+    width: 25%;
+    float: left; }
+  .col-4 {
+    width: 33.33333%;
+    float: left; }
+  .col-5 {
+    width: 41.66667%;
+    float: left; }
+  .col-6 {
+    width: 50%;
+    float: left; }
+  .col-7 {
+    width: 58.33333%;
+    float: left; }
+  .col-8 {
+    width: 66.66667%;
+    float: left; }
+  .col-9 {
+    width: 75%;
+    float: left; }
+  .col-10 {
+    width: 83.33333%;
+    float: left; }
+  .col-11 {
+    width: 91.66667%;
+    float: left; }
+  .col-12 {
+    width: 100%;
+    float: left; }
+	nav ul li a{
+		margin-right: 40px;
+	}
+     }
