@@ -26,114 +26,114 @@
     <!-- Container (Contenido principal) -->
     <div id="container">
         <main>
-            <section class="pfondo">
-            <div class="col-4 mitexto">
-                <a name="tema1"></a><h1>Historia</h1>
-                <p>Mi nombre es Luis Herdeth. Soy estudiante en una FP de Grado Superior de Desarrollo Web en Palma de Mallorca. Actualmente estamos aprendiendo HTML, CSS3.
-                Gracias a eso, he podido observar que cualquiera puede hacer una web, pero no todos hacer de la manera correcta y optimizada.
-                Tengo como reto, optimizar mi portafolio web.</p>
-                </div>
-                <div class="col-4 mifoto">
-                  <img src="img/luisherdeth.png" alt="luisherdet">
-                </div>
-                <div class="col-4 mivideo">
-                  <video height="290" width="290" controls>
-                      <source src="video/presentacion.mp4" type="video/mp4">
-                  </video>
-                </div>
-            </section>
-            <section class="pjuego">
-            <div class="col-12 mitexto">
-              <a name="tema2"></a><h1>Juego</h1>
-              </div>
-            </section>
-            <section class="pfondo3">
-		<div class="col-6 mitexto">
-			<a name="tema3"></a><h1>Ayuda</h1>
-			 <p>Buscaminas (en inglés: Minesweeper), es un videojuego para un jugador inventado en 1989. El juego ha sido programado para muchos sistemas operativos, pero debe su popularidad a las versiones que vienen con Microsoft Windows desde su versión 3.1.</p><br>
-			<img src="img/buscaminas.png" alt="buscaminas">
-		</div>
-            <div class="col-6 mitexto">
-	            <h1>Reglas</h1>
-	            <ol>
-	                <li>El juego consiste en despejar todas las casillas de una pantalla que no oculten una mina. </li>
-	                <li>Algunas casillas tienen un número, este número indica las minas que suman todas las casillas circundantes. Así, si una casilla tiene el número 3, significa que de las ocho casillas que hay alrededor (si no es en una esquina o borde) hay 3 con minas y 5 sin minas. Si se descubre una casilla sin número indica que ninguna de las casillas vecinas tiene mina y estas se descubren automáticamente.</li>
-	                <li>Si se descubre una casilla con una mina se pierde la partida.</li>
-	                <li>Se puede poner una marca en las casillas que el jugador piensa que hay minas para ayudar a descubrir la que están cerca.</li>
-	            </ol>
-	            <!-- Video automático -->
-	            <iframe src="http://www.youtube.com/embed/videoseries?list=PLcziZ0CWPMhKYsHtw4Mf4oQDWYR9vKLEM" width="420" height="315"></iframe>
-			<!-- Fin del video automático -->
-            	</div>
-            </section>
-            <section class="pfondo4">
-		<div class="col-6 mitexto">
-            	<a name="tema4"></a><h1>Contacto</h1>
-	            <p>Si tienes alguna duda con el juego o su funcinamiento, por favor, no dudes en ponerte en contacto conmigo. Puedes utilizar el formulario a continuación.</p>
-		</div>
-	            <!-- Formulario -->
-		<div class="col-6 mitexto">
-		 <h1>Formulario</h1>
-	            <form method="post" action="index.html">
-	                <label for="name">Nombre</label>
-	                <input type="text" name="firstname" id="name" size="50" placeholder="Tu nombre">
-	                <label for="lname">Apellidos</label>
-	                <input type="text" name="lastname" id="lname" size="50" placeholder="Apellidos">
-	                <label for="mail">Email (required)</label>
-	                <input type="email" name="email" id="mail" size="50" placeholder="Email valido">
-	                <!-- Con el atributo "multiple", podemos elegir más de un archivo -->
-	                <input type="file" id="archivo" name="file" multiple><br>
-	                <label>Motivo</label>
-	                <select>
-	                    <option value="profesional">Motivo Profesional</option>
-	                    <option value="personal" selected>Motivo Personal</option>
-	                </select><br>
-	                <label>Mensaje</label>
-	                <textarea name="message" placeholder="Mensaje"></textarea>
-	                <input type="checkbox" name="terminos" id="lopd">Aceptar términos y condiciones	<br>
-	                <input type="reset" value="Reset" class="boton"><br>
-	                <input type="submit" value="Enviar" class="boton"><br>
-	            </form>
-	            <!-- Fin Formulario -->
-	            <p>Luis Herdeth <span>Carrer d'Alfons el Magnànim, 15</span> 07004 Palma, Illes Balears</p>
-		</div>
-		<div class="col-12 mitexto">
-	            <!-- Mapa -->
-	            <iframe class="pmapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.9291060339647!2d2.650634715271025!3d39.58374811379976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792f93ba1c341%3A0x9adaa8db4e56aa22!2sCarrer+d&#39;Alfons+el+Magn%C3%A0nim%2C+15%2C+07004+Palma%2C+Illes+Balears!5e0!3m2!1ses!2ses!4v1475856996540" width="100%" height="450" allowfullscreen>
-	            </iframe>
-	            </div>
-	            <!-- Fin mapa -->
-            </section>
-            <section class="pfondo5">
-		<div class="col-12 mitexto">
-			<!-- Dificultad de juego -->
-		       <a name="tema5"></a> <h1>Configuración</h1>
-		        <!-- Form -->
-		<form method="post" action="configuracion.html">
-			            <label>Nivel de dificultad</label>
-			            <select>
-			                <option value="principiante">Nivel Principiante</option>
-			                <option value="medio" selected>Nivel Medio</option>
-			                <option value="avanzado">Nivel Avanzado</option>
-			            </select>
-			            <label>Idioma</label>
-			            <select>
-			                <option value="espanol">Español</option>
-			                <option value="ingles">Inglés</option>
-			                <option value="aleman" selected>Alemán</option>
-			            </select>
-			            <label>Contra quién quieres jugar?</label>
-			            <select>
-			                <option value="hvsm">Humano vs Máquina</option>
-			                <option value="mvsh">Máquina vs Humano</option>
-			            </select>
-			            <input type="submit" value="Enviar" class="boton">
-		</form>
-		        <!--Fin del Form -->
-		</div>
-</section>
+			<section class="pfondo">
+				<div class="col-4 mitexto">
+					<a name="tema1"></a><h1>Historia</h1>
+					<p>Mi nombre es Luis Herdeth. Soy estudiante en una FP de Grado Superior de Desarrollo Web en Palma de Mallorca. Actualmente estamos aprendiendo HTML, CSS3.
+					Gracias a eso, he podido observar que cualquiera puede hacer una web, pero no todos hacer de la manera correcta y optimizada.
+					Tengo como reto, optimizar mi portafolio web.</p>
+				</div>
+				<div class="col-4 mifoto">
+					<img src="img/luisherdeth.png" alt="luisherdet">
+				</div>
+				<div class="col-4 mivideo">
+				  <video height="290" width="290" controls>
+					<source src="video/presentacion.mp4" type="video/mp4">
+				  </video>
+				</div>
+			</section>
+			<section class="pjuego">
+				<div class="col-12 mitexto">
+				  <a name="tema2"></a><h1>Juego</h1>
+				  </div>
+			</section>
+			<section class="pfondo3">
+				<div class="col-6 mitexto">
+					<a name="tema3"></a><h1>Ayuda</h1>
+					 <p>Buscaminas (en inglés: Minesweeper), es un videojuego para un jugador inventado en 1989. El juego ha sido programado para muchos sistemas operativos, pero debe su popularidad a las versiones que vienen con Microsoft Windows desde su versión 3.1.</p><br>
+					<img src="img/buscaminas.png" alt="buscaminas">
+				</div>
+				<div class="col-6 mitexto">
+					<h1>Reglas</h1>
+					<ol>
+						<li>El juego consiste en despejar todas las casillas de una pantalla que no oculten una mina. </li>
+						<li>Algunas casillas tienen un número, este número indica las minas que suman todas las casillas circundantes. Así, si una casilla tiene el número 3, significa que de las ocho casillas que hay alrededor (si no es en una esquina o borde) hay 3 con minas y 5 sin minas. Si se descubre una casilla sin número indica que ninguna de las casillas vecinas tiene mina y estas se descubren automáticamente.</li>
+						<li>Si se descubre una casilla con una mina se pierde la partida.</li>
+						<li>Se puede poner una marca en las casillas que el jugador piensa que hay minas para ayudar a descubrir la que están cerca.</li>
+					</ol>
+					<!-- Video automático -->
+					<iframe src="http://www.youtube.com/embed/videoseries?list=PLcziZ0CWPMhKYsHtw4Mf4oQDWYR9vKLEM" width="420" height="315"></iframe>
+					<!-- Fin del video automático -->
+				</div>
+			</section>
+			<section class="pfondo4">
+				<div class="col-6 mitexto">
+					<a name="tema4"></a><h1>Contacto</h1>
+					<p>Si tienes alguna duda con el juego o su funcinamiento, por favor, no dudes en ponerte en contacto conmigo. Puedes utilizar el formulario a continuación.</p>
+				</div>
+					<!-- Formulario -->
+				<div class="col-6 mitexto">
+					<h1>Formulario</h1>
+					<form method="post" action="index.html">
+						<label for="name">Nombre</label><br>
+						<input type="text" name="firstname" id="name" size="50" placeholder="Tu nombre"><br>
+						<label for="lname">Apellidos</label><br>
+						<input type="text" name="lastname" id="lname" size="50" placeholder="Apellidos"><br>
+						<label for="mail">Email (required)</label><br>
+						<input type="email" name="email" id="mail" size="50" placeholder="Email valido">
+						<!-- Con el atributo "multiple", podemos elegir más de un archivo -->
+						<input type="file" id="archivo" name="file" multiple><br>
+						<label>Motivo</label>
+						<select>
+							<option value="profesional">Motivo Profesional</option>
+							<option value="personal" selected>Motivo Personal</option>
+						</select><br>
+						<label>Mensaje</label>
+						<textarea name="message" placeholder="Mensaje"></textarea>
+						<input type="checkbox" name="terminos" id="lopd">Aceptar términos y condiciones	<br>
+						<input type="reset" value="Reset" class="boton"><br>
+						<input type="submit" value="Enviar" class="boton"><br>
+					</form>
+					<!-- Fin Formulario -->
+					<p>Luis Herdeth <span>Carrer d'Alfons el Magnànim, 15</span> 07004 Palma, Illes Balears</p>
+				</div>
+				<div class="col-12 mitexto">
+					<!-- Mapa -->
+					<iframe class="pmapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.9291060339647!2d2.650634715271025!3d39.58374811379976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792f93ba1c341%3A0x9adaa8db4e56aa22!2sCarrer+d&#39;Alfons+el+Magn%C3%A0nim%2C+15%2C+07004+Palma%2C+Illes+Balears!5e0!3m2!1ses!2ses!4v1475856996540" width="100%" height="450" allowfullscreen>
+					</iframe>
+				</div>
+					<!-- Fin mapa -->
+			</section>
+			<section class="pfondo5">
+				<div class="col-12 mitexto">
+					<!-- Dificultad de juego -->
+				   <a name="tema5"></a> <h1>Configuración</h1>
+					<!-- Form -->
+					<form method="post" action="configuracion.html">
+						<label>Nivel de dificultad</label>
+						<select>
+							<option value="principiante">Nivel Principiante</option>
+							<option value="medio" selected>Nivel Medio</option>
+							<option value="avanzado">Nivel Avanzado</option>
+						</select>
+						<label>Idioma</label>
+						<select>
+							<option value="espanol">Español</option>
+							<option value="ingles">Inglés</option>
+							<option value="aleman" selected>Alemán</option>
+						</select>
+						<label>Contra quién quieres jugar?</label>
+						<select>
+							<option value="hvsm">Humano vs Máquina</option>
+							<option value="mvsh">Máquina vs Humano</option>
+						</select>
+						<input type="submit" value="Enviar" class="boton">
+					</form>
+					<!--Fin del Form -->
+				</div>
+			</section>
         </main>
-        </div>
+	</div>
     <!-- Fin del Container -->
 </body>
 </html>
